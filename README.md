@@ -30,5 +30,3 @@ Open `index.html` directly, or serve the folder:
 ```bash
 python -m http.server 8000   # then visit http://localhost:8000
 ```
-
-> To enable the **Download résumé** button, drop `Nikhil_Kesarkar_Senior_Data_Engineer.pdf` into the repo root.
