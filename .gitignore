@@ -1,0 +1,16 @@
+# Claude Code / AI assistant local files — never publish
+.claude/
+CLAUDE.md
+CLAUDE.local.md
+
+# OS / editor cruft
+.DS_Store
+Thumbs.db
+Desktop.ini
+.vscode/
+.idea/
+
+# Local-only / secrets
+*.local
+.env
+.env.*
