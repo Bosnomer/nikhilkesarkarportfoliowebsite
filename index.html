@@ -1,354 +1,400 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" data-theme="dark">
 
-  <head>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description"
+    content="Nikhil Kesarkar — Senior Data Engineer specializing in Azure Data Factory, Synapse, Databricks and Microsoft Fabric. 4+ years building cloud-scale ETL/ELT and Lakehouse platforms.">
+  <meta name="author" content="Nikhil Kesarkar">
 
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <meta name="description" content="">
-    <meta name="author" content="">
+  <!-- Open Graph -->
+  <meta property="og:title" content="Nikhil Kesarkar — Senior Data Engineer">
+  <meta property="og:description"
+    content="Cloud-scale data engineering on Azure, Databricks & Microsoft Fabric. Lakehouse platforms, 100+ pipelines, 30% compute savings.">
+  <meta property="og:type" content="website">
+  <meta property="og:image" content="img/PhotoToUpload.jpg">
 
-    <title>Resume - Nikhil Kesarkar</title>
+  <title>Nikhil Kesarkar — Senior Data Engineer</title>
 
-    <!-- Bootstrap core CSS -->
-    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Sora:wght@300;400;500;600;700;800&family=JetBrains+Mono:wght@400;500;600&display=swap"
+    rel="stylesheet">
 
-    <!-- Custom fonts for this template -->
-    <link href="https://fonts.googleapis.com/css?family=Saira+Extra+Condensed:100,200,300,400,500,600,700,800,900" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i" rel="stylesheet">
-    <link href="vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet">
-    <link href="vendor/devicons/css/devicons.min.css" rel="stylesheet">
-    <link href="vendor/simple-line-icons/css/simple-line-icons.css" rel="stylesheet">
-    <link href="vendor/devicon-master/devicon.min.css" rel="stylesheet">
+  <link href="css/style.css" rel="stylesheet">
+</head>
 
-    <!-- Custom styles for this template -->
-    <link href="css/resume.min.css" rel="stylesheet">
+<body id="page-top">
 
-  </head>
+  <!-- Scroll progress bar -->
+  <div class="scroll-progress" id="scrollProgress"></div>
 
-  <body id="page-top">
+  <!-- Animated background canvas -->
+  <canvas class="bg-canvas" id="bgCanvas" aria-hidden="true"></canvas>
 
-    <nav class="navbar navbar-expand-lg navbar-dark bg-primary fixed-top" id="sideNav">
-      <a class="navbar-brand js-scroll-trigger" href="#page-top">
-        <span class="d-block d-lg-none">Resume - Nikhil</span>
-        <span class="d-none d-lg-block">
-          <img class="img-fluid img-profile rounded-circle mx-auto mb-2" src="img/PhotoToUpload.jpg" alt="">
-        </span>
-      </a>
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarSupportedContent">
-        <ul class="navbar-nav">
-          <li class="nav-item">
-            <a class="nav-link js-scroll-trigger" href="#about">About</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link js-scroll-trigger" href="#experience">Experience</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link js-scroll-trigger" href="#education">Education</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link js-scroll-trigger" href="#projects">Projects</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link js-scroll-trigger" href="#skills">Skills</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link js-scroll-trigger" href="#certifications">Certifications</a>
-          </li>
-        </ul>
-      </div>
+  <!-- Navigation -->
+  <header class="nav" id="nav">
+    <a href="#page-top" class="nav__brand">
+      <span class="nav__brand-mark">NK</span>
+      <span class="nav__brand-text">Nikhil&nbsp;Kesarkar</span>
+    </a>
+
+    <nav class="nav__links" id="navLinks">
+      <a href="#about" class="nav__link">About</a>
+      <a href="#skills" class="nav__link">Skills</a>
+      <a href="#experience" class="nav__link">Experience</a>
+      <a href="#education" class="nav__link">Education</a>
+      <a href="#certs" class="nav__link">Certs</a>
+      <a href="#contact" class="nav__link">Contact</a>
     </nav>
 
-    <div class="container-fluid p-0">
-
-      <section class="resume-section p-3 p-lg-5 d-flex d-column" id="about">
-        <div class="my-auto">
-          <h1 class="mb-0">Nikhil
-            <span class="text-primary">Kesarkar</span>
-          </h1>
-          <div class="subheading mb-5">Mumbai, India · 
-            <a href="mailto:nikhilkesarkar47@gmail.com">nikhilkesarkar47@gmail.com</a>
-          </div>
-          <p class="mb-5">Nikhil's Objective is to work in a meaningful and challenging position that enables him to develop himself as a professional and permits scope for advancement.<br>
-                          He brings a good amount of experience in Data Science Domain. He is currently working as a Consultant in Data and Analytics department - Digital Lighthouse of KPMG India.<br>
-                          He has a good knowledge of Azure Cloud, Machine Learning, Deep Learning, Statistics, RDBMS, NoSQL, etc.<br>
-                          He had also worked with various programming languages in his curriculum such as C, JAVA, Python, SQL etc.<br>
-                          Apart from professional things, he likes to play and watch Cricket, Chess, Table-Tennis, he likes to read articles regarding new technologies and explore them.
-                          He wants to seek an opportunity to apply his knowledge wherever it is possible.<br>
-                          Nikhil believes in "When any data is given to you, draw insights not faults!" </p>
-          <ul class="list-inline list-social-icons mb-0">
-            <li class="list-inline-item">
-              <a href="https://www.linkedin.com/in/nikhilkesarkar1998/">
-                <span class="fa-stack fa-lg">
-                  <i class="fa fa-circle fa-stack-2x"></i>
-                  <i class="fa fa-linkedin fa-stack-1x fa-inverse"></i>
-                </span>
-              </a>
-            </li>
-            <li class="list-inline-item">
-              <a href="https://github.com/Bosnomer">
-                <span class="fa-stack fa-lg">
-                  <i class="fa fa-circle fa-stack-2x"></i>
-                  <i class="fa fa-github fa-stack-1x fa-inverse"></i>
-                </span>
-              </a>
-            </li>
-            <li class="list-inline-item">
-              <a href="https://www.facebook.com/nikhil.bosnomer/">
-                <span class="fa-stack fa-lg">
-                  <i class="fa fa-circle fa-stack-2x"></i>
-                  <i class="fa fa-facebook fa-stack-1x fa-inverse"></i>
-                </span>
-              </a>
-            </li>
-            <li class="list-inline-item">
-              <a href="https://www.instagram.com/nikhillihkin_/">
-                <span class="fa-stack fa-lg">
-                  <i class="fa fa-circle fa-stack-2x"></i>
-                  <i class="fa fa-instagram fa-stack-1x fa-inverse"></i>
-                </span>
-              </a>
-            </li>
-          </ul>
-        </div>
-      </section>
-      
-      <section class="resume-section p-3 p-lg-5 d-flex flex-column" id="experience">
-        <div class="my-auto">
-          <h2 class="mb-5">Experience</h2>
-
-          <div class="resume-item d-flex flex-column flex-md-row mb-5">
-            <div class="resume-content mr-auto">
-              <h3 class="mb-0">Consultant - Data and Analytics</h3>
-              <div class="subheading mb-3">KPMG, Mumbai, India</div>
-              <p>- Worked for a manufacturing client on a project based on Data Engineering.<br>
-              - Created an end-to-end pipeline in Azure right from Data Ingestion to Data Presentation (BI).<br>
-              - Worked on Azure Data Factory and Synapse Analytics for Data Ingestion. Worked on Data Flow in ADF and Azure DataBricks for Data Transformation. Also used Power BI to visualize the processed data in real time.
-              - Automated the pipelines using triggers and parameters in Azure Environment.</p>
-            </div>
-            <div class="resume-date text-md-right">
-              <span class="text-primary">May 2022 - present</span>
-            </div>
-          </div>
-          
-          <div class="resume-item d-flex flex-column flex-md-row mb-5">
-            <div class="resume-content mr-auto">
-              <h3 class="mb-0">Consultant Trainee- Data and Analytics</h3>
-              <div class="subheading mb-3">KPMG, Mumbai, India</div>
-              <p>- Went through Azure Cloud Training.<br>
-              - Cleared Certifications like Data Engineering on Microsoft Azure (DP-203), Azure Fundamentals (AZ-900), Azure Data Fundamentals (DP-900).<br>
-              - Gained a good amount of information regarding all Microsoft Azure services.</p>
-            </div>
-            <div class="resume-date text-md-right">
-              <span class="text-primary">Jan 2022 - May 2022</span>
-            </div>
-          </div>
-          
-          <div class="resume-item d-flex flex-column flex-md-row mb-5">
-            <div class="resume-content mr-auto">
-              <h3 class="mb-0">Data Science Intern</h3>
-              <div class="subheading mb-3">AkzoNobel, Mumbai, India</div>
-              <p>- Learnt and Understood basic concepts and physics in color.<br>
-              - Done Exploratory Analysis to understand color data and its features.<br>
-              - Prepared Data for modeling using ETL and Feature Engineering.<br>
-              - Improved Objective Color Criteria (color matching condition) for solid colors to a good extent using ML models.<br>
-              - Documented results and presented to the client.</p>
-            </div>
-            <div class="resume-date text-md-right">
-              <span class="text-primary">Aug 2021 - Dec 2021</span>
-            </div>
-          </div>
-        </div>
-
-      </section>
-
-      <section class="resume-section p-3 p-lg-5 d-flex flex-column" id="education">
-        <div class="my-auto">
-          <h2 class="mb-5">Education</h2>
-
-          <div class="resume-item d-flex flex-column flex-md-row mb-5">
-            <div class="resume-content mr-auto">
-              <h3 class="mb-0">NMIMS University, Mumbai</h3>
-              <div class="subheading mb-3">Master of Technology</div>
-              <ul class="fa-ul mb-0">
-                <li><i class="fa-li fa fa-check"></i>
-                  Data Science</li>
-              </ul>
-              <p><u>Relevant Coursework</u>: Basic of Marketing and Supply Chain, Finance and Advance Finance, Advance Statistics, Machine Learning, Programming Analytics, AI, Deep Learning, Object oriented Programming, Big Data, RDBMS, and Business Visualizations.</p>
-              <p>CGPI: 3.88/4</p>
-            </div>
-            <div class="resume-date text-md-right">
-              <span class="text-primary">August 2020 - May 2022</span>
-            </div>
-          </div>
-
-          <div class="resume-item d-flex flex-column flex-md-row">
-            <div class="resume-content mr-auto">
-              <h3 class="mb-0">University of Mumbai</h3>
-              <div class="subheading mb-3">Bachelor of Engineering</div>
-              <ul class="fa-ul mb-0">
-                <li><i class="fa-li fa fa-check"></i>
-                  Computer Engineering</li>
-              </ul>
-              <p><u>Relevant Coursework</u>: Sequence of Applied Mathematics, Discrete Mathematics, Object Oriented Programming, Data Structures, RDBMS, Machine Learning and Communications Skills.</p>
-              <p>CGPI: 8.55/10</p>
-            </div>
-            <div class="resume-date text-md-right">
-              <span class="text-primary">August 2016 - August 2020</span>
-            </div>
-          </div>
-
-        </div>
-      </section>
-      
-      
-      
-      <section class="resume-section p-3 p-lg-5 d-flex flex-column" id="projects">
-        <div class="my-auto">
-          <h2 class="mb-5">Projects</h2>
-          
-          <div class="resume-item d-flex flex-column flex-md-row">
-            <div class="resume-content mr-auto">
-              <h3 class="mb-0">Analysis of Human demographics for business enhancement using Computer Vision and Big Data</h3>
-              <div>Human demographics such as age and gender are identified using CNN. Also, persons are detected and
-                      tracked. All these tracked information is stored in database and hence they are analyzed to improve the
-                      business efficiency. Use of Big Data technology like Apache Kafka and Apache Spark are used to gather and store data coming
-                      from various sources like various CCTV cameras within a business field. These are then analyzed to
-                      improve the efficiency of the business.</div>
-              <p></p>
-            </div>
-            <div class="resume-date text-md-right">
-              <span class="text-primary">March 2021 - June 2021</span>
-            </div>
-          </div>
-          
-          <div class="resume-item d-flex flex-column flex-md-row">
-            <div class="resume-content mr-auto">
-              <h3 class="mb-0">Facial Expression Recognition using CNN and SVM</h3>
-              <div>Facial Expression are detected are identified using CNN. Though CNN is very popular for images, there was
-                      an attempt of using SVM for the same objective. SVM was not used directly, first PCA was applied to
-                      reduce some dimensions so that the load on SVM in not too much.</div>
-              <p></p>
-            </div>
-            <div class="resume-date text-md-right">
-              <span class="text-primary">April 2021 - May 2021</span>
-            </div>
-          </div>
-          
-          <div class="resume-item d-flex flex-column flex-md-row">
-            <div class="resume-content mr-auto">
-              <h3 class="mb-0">Automatic Lip Reading: Classification of Words and Phrases using Convolutional Neural Network</h3>
-              <div>This is a simple but interesting lip reading project. Convolutional neural network, Machine Learning, Image processing, etc techniques are used here. The project predicts word or phrase out of 10 words and 10 phrases. The dataset used here is MIRACL-VC1 which has sequence images of 15 speakers uttering 10 words and 10 phrases. In short, the model predicts amongst 20 objects.</div>
-              <p></p>
-            </div>
-            <div class="resume-date text-md-right">
-              <span class="text-primary">August 2019 - February 2020</span>
-            </div>
-          </div>
-
-        </div>
-      </section>
-
-      <section class="resume-section p-3 p-lg-5 d-flex flex-column" id="skills">
-        <div class="my-auto">
-          <h2 class="mb-5">Skills</h2>
-
-          <div class="subheading mb-3">Programming Languages &amp; Tools</div>
-          <ul class="list-inline list-icons">
-            <li class="list-inline-item">
-              <i class="devicon-python-plain-wordmark"></i>
-            </li>
-            <li class="list-inline-item">
-              <i class="devicon-c-plain"></i>
-            </li>
-            <li class="list-inline-item">
-              <i class="devicon-mysql-plain-wordmark"></i>
-            </li>
-            <li class="list-inline-item">
-              <i class="devicon-postgresql-plain-wordmark"></i>
-            </li>
-            <li class="list-inline-item">
-              <i class="devicon-github-plain"></i>
-            </li>
-            <li class="list-inline-item">
-              <i class="devicon-ubuntu-plain-wordmark"></i>
-            </li>
-            <li class="list-inline-item">
-              <i class="devicons devicons-html5"></i>
-            </li>
-            <li class="list-inline-item">
-              <i class="devicons devicons-css3"></i>
-            </li>
-            <li class="list-inline-item">
-              <i class="devicons devicons-javascript"></i>
-            </li>
-            <li class="list-inline-item">
-              <i class="devicon-ruby-plain-wordmark"></i>
-            </li>
-          </ul>
-
-          <div class="subheading mb-3">Analytics &amp; Frameworks</div>
-          <ul class="fa-ul mb-0">
-            <li>
-              <i class="fa-li fa fa-check"></i>
-              Statistics</li>
-            <li>
-              <i class="fa-li fa fa-check"></i>
-              R</li>
-            <li>
-              <i class="fa-li fa fa-check"></i>
-              SAS</li>
-            <li>
-              <i class="fa-li fa fa-check"></i>
-              EXCEL</li>
-            <li>
-              <i class="fa-li fa fa-check"></i>
-              Tableau</li>
-              <li>
-              <i class="fa-li fa fa-check"></i>
-              Pandas, Numpy, &amp; TensorFlow</li>
-          </ul>
-        </div>
-      </section>
-
-      <section class="resume-section p-3 p-lg-5 d-flex flex-column" id="certifications">
-        <div class="my-auto">
-          <h2 class="mb-5">Certifications</h2>
-          <ul class="fa-ul mb-0">
-            <li>
-              <i class="fa-li fa fa-check"></i>
-              Data Engineering Microsoft Certified: Azure Data Engineer Associate (DP - 203) (Microsoft)</li>
-            <li>
-              <i class="fa-li fa fa-check"></i>
-              Azure Data Fundamentals (DP-900) (Microsoft)</li>
-            <li>
-              <i class="fa-li fa fa-check"></i>
-              Azure Fundamentals (AZ-900) (Microsoft)</li>
-            <li>
-              <i class="fa-li fa fa-check"></i>
-              SAS Certified Predictive Modeler Using SAS Enterprise Miner 14, SAS India – Professional Certificate (SAS), 2021</li>
-            <li>
-              <i class="fa-li fa fa-check"></i>
-              SAS Certified: Base Programming Using SAS 9.4-Performance Based Testing (SAS India)</li>
-          </ul>
-        </div>
-      </section>
-
+    <div class="nav__actions">
+      <button class="theme-toggle" id="themeToggle" aria-label="Toggle color theme" title="Toggle theme">
+        <svg class="theme-toggle__sun" viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor"
+          stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+          <circle cx="12" cy="12" r="4"></circle>
+          <path d="M12 2v2M12 20v2M4.9 4.9l1.4 1.4M17.7 17.7l1.4 1.4M2 12h2M20 12h2M4.9 19.1l1.4-1.4M17.7 6.3l1.4-1.4">
+          </path>
+        </svg>
+        <svg class="theme-toggle__moon" viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor"
+          stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+          <path d="M21 12.8A9 9 0 1 1 11.2 3a7 7 0 0 0 9.8 9.8z"></path>
+        </svg>
+      </button>
+      <button class="nav__burger" id="navBurger" aria-label="Toggle menu">
+        <span></span><span></span><span></span>
+      </button>
     </div>
+  </header>
 
-    <!-- Bootstrap core JavaScript -->
-    <script src="vendor/jquery/jquery.min.js"></script>
-    <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <main>
+    <!-- Hero -->
+    <section class="hero" id="hero">
+      <div class="hero__inner">
+        <div class="hero__content reveal">
+          <p class="hero__eyebrow"><span class="hero__status-dot"></span> Available for senior data roles</p>
+          <h1 class="hero__name">Nikhil&nbsp;Kesarkar</h1>
+          <h2 class="hero__role">
+            <span class="hero__role-static">I build</span>
+            <span class="hero__typed" id="typed"></span><span class="hero__cursor">_</span>
+          </h2>
+          <p class="hero__tagline">
+            Senior Data Engineer with <strong>4+ years</strong> designing cloud-scale ETL/ELT and Lakehouse
+            platforms on <strong>Azure Data Factory</strong>, <strong>Synapse</strong>,
+            <strong>Databricks</strong> and <strong>Microsoft Fabric</strong>.
+          </p>
+          <div class="hero__cta">
+            <a href="#contact" class="btn btn--primary">Get in touch</a>
+            <a href="Nikhil_Kesarkar_Senior_Data_Engineer.pdf" class="btn btn--ghost" download>
+              <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2"
+                stroke-linecap="round" stroke-linejoin="round">
+                <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4M7 10l5 5 5-5M12 15V3"></path>
+              </svg>
+              Download résumé
+            </a>
+          </div>
+          <ul class="hero__socials">
+            <li><a href="https://www.linkedin.com/in/nikhilkesarkar1998/" target="_blank" rel="noopener"
+                aria-label="LinkedIn">in</a></li>
+            <li><a href="mailto:nikhilkesarkar47work@gmail.com" aria-label="Email">@</a></li>
+            <li><a href="tel:+919167643419" aria-label="Phone">☎</a></li>
+            <li class="hero__loc">📍 Mumbai, India</li>
+          </ul>
+        </div>
 
-    <!-- Plugin JavaScript -->
-    <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
+        <div class="hero__visual reveal">
+          <div class="hero__photo-wrap">
+            <div class="hero__photo-ring"></div>
+            <img src="img/PhotoToUpload.jpg" alt="Nikhil Kesarkar" class="hero__photo">
+            <div class="hero__badge hero__badge--1">Azure</div>
+            <div class="hero__badge hero__badge--2">Databricks</div>
+            <div class="hero__badge hero__badge--3">Fabric</div>
+          </div>
+        </div>
+      </div>
 
-    <!-- Custom scripts for this template -->
-    <script src="js/resume.min.js"></script>
+      <!-- Stat strip -->
+      <div class="stats reveal">
+        <div class="stat">
+          <span class="stat__num" data-count="4" data-suffix="+">0</span>
+          <span class="stat__label">Years experience</span>
+        </div>
+        <div class="stat">
+          <span class="stat__num" data-count="20000" data-suffix="+" data-format="k">0</span>
+          <span class="stat__label">Users served</span>
+        </div>
+        <div class="stat">
+          <span class="stat__num" data-count="30" data-suffix="%">0</span>
+          <span class="stat__label">Cloud cost cut</span>
+        </div>
+        <div class="stat">
+          <span class="stat__num" data-count="100" data-suffix="+">0</span>
+          <span class="stat__label">Pipelines built</span>
+        </div>
+      </div>
 
-  </body>
+      <a href="#about" class="hero__scroll" aria-label="Scroll down">
+        <span></span>
+      </a>
+    </section>
+
+    <!-- About -->
+    <section class="section" id="about">
+      <div class="section__head reveal">
+        <span class="section__index">01</span>
+        <h2 class="section__title">About</h2>
+      </div>
+      <div class="about reveal">
+        <p class="about__lead">
+          I architect and optimize <strong>cloud-scale data platforms</strong> end to end — from ingestion and
+          transformation to governed, high-performance analytics.
+        </p>
+        <p>
+          Over the past 4+ years at KPMG India I've delivered a firm-wide <strong>Lakehouse and data warehousing
+          platform serving ~20,000 users</strong>, engineered 100+ production ETL/ELT pipelines, and reduced cloud
+          compute costs by <strong>30%</strong> through Delta Lake performance tuning, Z-Ordering and incremental
+          processing. I pair deep engineering with stakeholder management and technical mentoring — leading
+          proof-of-concepts, large-scale migrations and CI/CD automation across enterprise data estates.
+        </p>
+      </div>
+    </section>
+
+    <!-- Skills -->
+    <section class="section" id="skills">
+      <div class="section__head reveal">
+        <span class="section__index">02</span>
+        <h2 class="section__title">Technical Skills</h2>
+      </div>
+      <div class="skills">
+        <article class="skill-card reveal">
+          <h3 class="skill-card__title">☁️ Cloud &amp; Data Platforms</h3>
+          <div class="chips">
+            <span class="chip">Microsoft Azure</span><span class="chip">Azure Data Factory</span>
+            <span class="chip">Synapse Analytics</span><span class="chip">Azure Databricks</span>
+            <span class="chip">Microsoft Fabric</span><span class="chip">OneLake</span>
+            <span class="chip">ADLS Gen2</span><span class="chip">Azure SQL Database</span>
+            <span class="chip">Delta Lake</span>
+          </div>
+        </article>
+        <article class="skill-card reveal">
+          <h3 class="skill-card__title">🛠️ Data Engineering</h3>
+          <div class="chips">
+            <span class="chip">ETL / ELT</span><span class="chip">Data Pipelines</span>
+            <span class="chip">Lakehouse &amp; Medallion</span><span class="chip">Data Warehousing</span>
+            <span class="chip">Star &amp; Snowflake Schema</span><span class="chip">SCD</span>
+            <span class="chip">Incremental Loading</span><span class="chip">Data Migration</span>
+            <span class="chip">Data Governance</span><span class="chip">Unity Catalog</span>
+            <span class="chip">Data Quality</span>
+          </div>
+        </article>
+        <article class="skill-card reveal">
+          <h3 class="skill-card__title">⚡ Big Data &amp; Performance</h3>
+          <div class="chips">
+            <span class="chip">Apache Spark</span><span class="chip">PySpark</span>
+            <span class="chip">Spark SQL</span><span class="chip">Performance Tuning</span>
+            <span class="chip">Z-Ordering</span><span class="chip">Partitioning</span>
+            <span class="chip">Data Skipping</span><span class="chip">Parquet</span>
+            <span class="chip">Delta Lake Optimization</span>
+          </div>
+        </article>
+        <article class="skill-card reveal">
+          <h3 class="skill-card__title">💻 Programming &amp; DevOps</h3>
+          <div class="chips">
+            <span class="chip">Python</span><span class="chip">SQL (T-SQL)</span>
+            <span class="chip">Stored Procedures</span><span class="chip">OOP</span>
+            <span class="chip">Azure DevOps</span><span class="chip">CI/CD</span>
+            <span class="chip">Git</span><span class="chip">MLflow</span>
+            <span class="chip">Power BI</span><span class="chip">Jira</span>
+            <span class="chip">Scrum / Agile</span>
+          </div>
+        </article>
+        <article class="skill-card skill-card--wide reveal">
+          <h3 class="skill-card__title">🎯 Leadership &amp; Delivery</h3>
+          <div class="chips">
+            <span class="chip">Stakeholder Management</span><span class="chip">Cross-functional Collaboration</span>
+            <span class="chip">Technical Mentoring &amp; Enablement</span><span class="chip">Requirements Gathering</span>
+            <span class="chip">Solution Design</span><span class="chip">UAT &amp; Delivery Ownership</span>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <!-- Experience -->
+    <section class="section" id="experience">
+      <div class="section__head reveal">
+        <span class="section__index">03</span>
+        <h2 class="section__title">Experience</h2>
+      </div>
+      <div class="timeline">
+        <article class="tl-item reveal">
+          <div class="tl-item__dot"></div>
+          <div class="tl-item__card">
+            <div class="tl-item__top">
+              <h3 class="tl-item__role">Senior Data Engineer Consultant</h3>
+              <span class="tl-item__date">Apr 2025 – Present</span>
+            </div>
+            <p class="tl-item__org">KPMG India</p>
+            <ul class="tl-item__points">
+              <li>Cut cloud compute spend <strong>30%</strong> and migrated <strong>75%</strong> of client workloads to
+                Azure by architecting Synapse workspace segregation and end-to-end Data Lake migrations.</li>
+              <li>Delivered a firm-wide Lakehouse platform and executive dashboard for <strong>~20,000 employees</strong>,
+                engineering Delta Lake models with optimized partitioning and incremental loads.</li>
+              <li>Delivered <strong>40+ manufacturing KPIs</strong> through Azure Synapse pipelines, achieving
+                <strong>100% UAT pass</strong> on the first iteration.</li>
+              <li>Led a Microsoft Fabric POC (OneLake, Lakehouse, Direct Lake) whose validated outcomes drove migration of
+                production pipelines and semantic models to Fabric.</li>
+              <li>Drove <strong>80% user adoption</strong> and a <strong>20%</strong> efficiency gain by leading an Azure
+                &amp; Databricks enablement program for 25+ stakeholders.</li>
+            </ul>
+          </div>
+        </article>
+
+        <article class="tl-item reveal">
+          <div class="tl-item__dot"></div>
+          <div class="tl-item__card">
+            <div class="tl-item__top">
+              <h3 class="tl-item__role">Data Engineer Consultant</h3>
+              <span class="tl-item__date">May 2022 – Mar 2025</span>
+            </div>
+            <p class="tl-item__org">KPMG India</p>
+            <ul class="tl-item__points">
+              <li>Engineered <strong>100+ production ETL/ELT pipelines</strong> across ADF, Synapse and Databricks,
+                integrating complex on-premises and cloud sources into ADLS Gen2.</li>
+              <li>Reduced query latency and compute cost by tuning PySpark and Delta Lake workloads with advanced
+                partitioning, Z-Ordering and data-skipping strategies.</li>
+              <li>Accelerated Power BI performance with optimized Star and Snowflake Schema models in Synapse Dedicated
+                SQL Pools.</li>
+              <li>Automated CI/CD across Dev, Test and Production using Azure DevOps and Git.</li>
+              <li>Built Databricks dashboard POCs and implemented MLflow to lay the foundation for the firm's ML
+                integration.</li>
+              <li>Earned <strong>Top 5 Learner</strong> recognition in the Digital Lighthouse practice (5+ advanced Azure
+                &amp; Databricks certifications).</li>
+            </ul>
+          </div>
+        </article>
+
+        <article class="tl-item reveal">
+          <div class="tl-item__dot"></div>
+          <div class="tl-item__card">
+            <div class="tl-item__top">
+              <h3 class="tl-item__role">Consultant Trainee</h3>
+              <span class="tl-item__date">Jan 2022 – May 2022</span>
+            </div>
+            <p class="tl-item__org">KPMG India</p>
+            <ul class="tl-item__points">
+              <li>Earned a <strong>Pre-Placement Offer (PPO)</strong> for high performance supporting Data Lake
+                implementation and operations.</li>
+              <li>Built <strong>15+ end-to-end</strong> Azure data pipelines and Power BI dashboards supporting executive
+                decision-making.</li>
+            </ul>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <!-- Education -->
+    <section class="section" id="education">
+      <div class="section__head reveal">
+        <span class="section__index">04</span>
+        <h2 class="section__title">Education</h2>
+      </div>
+      <div class="edu">
+        <article class="edu-card reveal">
+          <div class="edu-card__icon">🎓</div>
+          <h3 class="edu-card__deg">M.Tech, Data Science</h3>
+          <p class="edu-card__school">NMIMS University, Mumbai</p>
+          <div class="edu-card__meta">
+            <span class="badge">CGPA 3.88 / 4.0</span>
+            <span class="edu-card__year">2020 – 2022</span>
+          </div>
+        </article>
+        <article class="edu-card reveal">
+          <div class="edu-card__icon">🎓</div>
+          <h3 class="edu-card__deg">B.E., Computer Engineering</h3>
+          <p class="edu-card__school">University of Mumbai</p>
+          <div class="edu-card__meta">
+            <span class="badge">CGPA 8.55 / 10</span>
+            <span class="edu-card__year">2016 – 2020</span>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <!-- Certifications -->
+    <section class="section" id="certs">
+      <div class="section__head reveal">
+        <span class="section__index">05</span>
+        <h2 class="section__title">Certifications</h2>
+      </div>
+      <div class="certs">
+        <article class="cert-card reveal">
+          <div class="cert-card__badge">MS</div>
+          <div>
+            <h3 class="cert-card__name">Microsoft Certified: Fabric Data Engineer Associate</h3>
+            <p class="cert-card__date">Issued Jun 2025</p>
+          </div>
+        </article>
+        <article class="cert-card reveal">
+          <div class="cert-card__badge cert-card__badge--db">DB</div>
+          <div>
+            <h3 class="cert-card__name">Databricks Certified: Data Engineer Professional</h3>
+            <p class="cert-card__date">Issued Jul 2023</p>
+          </div>
+        </article>
+        <article class="cert-card reveal">
+          <div class="cert-card__badge">MS</div>
+          <div>
+            <h3 class="cert-card__name">Microsoft Certified: Azure Data Engineer Associate</h3>
+            <p class="cert-card__date">Issued Jun 2023</p>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <!-- Contact -->
+    <section class="section section--contact" id="contact">
+      <div class="section__head reveal">
+        <span class="section__index">06</span>
+        <h2 class="section__title">Let's talk</h2>
+      </div>
+      <div class="contact reveal">
+        <p class="contact__lead">
+          Open to senior data engineering roles and interesting data platform challenges. The fastest way to reach me:
+        </p>
+        <div class="contact__grid">
+          <a href="mailto:nikhilkesarkar47work@gmail.com" class="contact__card">
+            <span class="contact__icon">✉️</span>
+            <span class="contact__k">Email</span>
+            <span class="contact__v">nikhilkesarkar47work@gmail.com</span>
+          </a>
+          <a href="tel:+919167643419" class="contact__card">
+            <span class="contact__icon">📱</span>
+            <span class="contact__k">Phone</span>
+            <span class="contact__v">+91 91676 43419</span>
+          </a>
+          <a href="https://www.linkedin.com/in/nikhilkesarkar1998/" target="_blank" rel="noopener" class="contact__card">
+            <span class="contact__icon">💼</span>
+            <span class="contact__k">LinkedIn</span>
+            <span class="contact__v">in/nikhilkesarkar1998</span>
+          </a>
+          <div class="contact__card contact__card--static">
+            <span class="contact__icon">📍</span>
+            <span class="contact__k">Location</span>
+            <span class="contact__v">Mumbai, India</span>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <p>© <span id="year"></span> Nikhil Kesarkar — Senior Data Engineer</p>
+    <a href="#page-top" class="footer__top">Back to top ↑</a>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
 
 </html>
