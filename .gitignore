@@ -1,3 +1,9 @@
+# Source photos & build artifacts — the optimized photos are embedded
+# directly into css/media.css, so the raw image files stay out of the repo.
+img/
+.thumbs/
+generate_media.py
+
 # OS / editor cruft
 .DS_Store
 Thumbs.db

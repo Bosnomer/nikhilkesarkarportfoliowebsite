@@ -110,8 +110,8 @@
     ' Lakehouse platforms',
     ' Azure data pipelines',
     ' Databricks & Spark jobs',
-    ' Microsoft Fabric solutions',
-    ' that scale to 20,000 users'
+    ' Delta Lake at scale',
+    ' that serve 15,000 users'
   ];
   if (reduceMotion) {
     typedEl.textContent = phrases[0];
